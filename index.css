@@ -1,0 +1,35 @@
+body {
+    font-size: 18px;
+}
+
+body label {
+    font-weight: bold;
+}
+
+.goombas{
+    content: url(mariopestcontrol.jpg);
+    height: 100px;
+    width: 100px;
+}
+.bob-bombs{
+    content: url(bob-ombs.jpeg);
+    height: 100px;
+    width: 100px;
+}
+.cheep-cheeps{
+    content: url(Big_Cheep_Cheep_PMSS.png);
+    height: 100px;
+    width: 100px;
+}
+
+#goombas {
+    background-color: red;
+}
+
+#bob-bombs {
+    background-color: green;
+}
+
+#cheep-cheeps {
+    background-color: blue;
+}

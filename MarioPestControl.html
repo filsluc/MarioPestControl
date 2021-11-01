@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <title>Mario Pest Control</title>
+</head>
+<body>
+    <h1>Mario Pest Control</h1>
+    <form id="baddies_form">
+        <div id="goombas">
+            <h2>Goomba</h2>
+            <img class="goombas" src="" />
+            <p>Price: 5 Coins</p>
+            <label for="goombas_caught">Goobas Caught:</label>
+            <input id="goombas_caught" oninput="calculateTotal()" type="number" name="goombas_caught" value=0 />
+        </div>
+        <div id="bob-bombs">
+            <h2>Bob-ombs</h2>
+            <img class="bob-bombs" src="" />
+            <p>Price: 7 Coins</p>
+            <label for="bob-ombs_caught">Bob-ombs Caught:</label>
+            <input id="bob-ombs_caught" oninput="calculateTotal()" type="number" name="bob-ombs_caught" value=0 />
+        </div>
+        <div id="cheep-cheeps">
+            <h2>Cheep-Cheeps</h2>
+            <img class="cheep-cheeps" src="" />
+            <p>Price: 11 Coins</p>
+            <label for="cheep-cheeps_caught">Cheep-Cheeps Caught:</label>
+            <input id="cheep-cheeps_caught" oninput="calculateTotal()" type="number" name="cheep-cheeps_caught" value=0 />
+        </div>
+        </br>
+        <div>
+            <label>Total Cost:</label>
+            <input id="total_cost" type="number" name="total_cost" value=0 readonly />
+            <span>coins</span>
+        </div>
+    </form>
+</body>
+</html>
+<script src="index.js"></script>
